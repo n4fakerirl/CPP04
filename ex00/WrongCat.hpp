@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Cat.hpp                                            :+:      :+:    :+:   */
+/*   WrongCat.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ocviller <ocviller@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/11 02:10:27 by ocviller          #+#    #+#             */
-/*   Updated: 2026/01/11 16:27:01 by ocviller         ###   ########.fr       */
+/*   Created: 2026/01/11 16:27:29 by ocviller          #+#    #+#             */
+/*   Updated: 2026/01/11 16:28:34 by ocviller         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
-#include "Animal.hpp"
+#include "WrongAnimal.hpp"
 
-class Cat : public Animal
+class WrongCat : public WrongAnimal
 {
     public:
-    Cat();
-    Cat(const Cat &other);
-    Cat& operator=(const Cat &other);
-    virtual ~Cat();
+    WrongCat();
+    WrongCat(const WrongCat &other);
+    WrongCat& operator=(const WrongCat &other);
+    virtual ~WrongCat();
     virtual void makeSound(void) const;
 };
