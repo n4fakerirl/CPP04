@@ -41,10 +41,6 @@ Le module CPP04 approfondit le **polymorphisme**, les **classes abstraites** et 
 
 ## 🖼️ Note du projet
 
-<p align="center">
-  <img width="198" height="168" alt="image" src="YOUR_GRADE_IMAGE_HERE" />
-</p>
-
 ---
 
 ## 🫐 Auteur
@@ -97,10 +93,6 @@ Through a hierarchy of animal classes, it introduces virtual functions, abstract
 ---
 
 ## 🖼️ Project Grade
-
-<p align="center">
-  <img width="198" height="168" alt="image" src="YOUR_GRADE_IMAGE_HERE" />
-</p>
 
 ---
 
